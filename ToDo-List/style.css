@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,200&family=Mochiy+Pop+One&family=Montserrat:wght@300&family=Nunito:ital,wght@0,300;1,300&family=Open+Sans:wght@500&family=PT+Serif:ital@1&family=Playpen+Sans&family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+
+body{
+    background: linear-gradient( 100deg, #F875AA, #AEDEFC);
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+
+.input-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+
+    .input-box{
+        padding: 15px;
+        margin: 10px auto;
+        text-align: left;
+        font-size: 15px;
+        flex: 1;
+        border: none;
+        outline: none;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        background-color: lightgrey;
+    }
+
+    .add-btn{
+        text-transform: uppercase;
+        width: 15%;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border: none;
+        outline: none;
+        background-color: #e66510;
+        color: #fff;
+        font-size: 17px;
+        padding: 14px;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    .add-btn:hover{
+        box-shadow: gray;
+    }
+}
+
+h2{
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+.list-container{
+    margin: 30px auto;
+
+    .checked{
+        text-decoration: line-through;
+        color: rgb(92, 92, 92);
+    }
+}
+
+li{
+    list-style: none;
+    margin: 15px auto;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 50px;
+    align-items: center;
+}
+
+
+ul  li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+ul li{
+    align-items: center;
+}
+
+ul li span{
+    right: 10px;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+ul li span:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+
+
+
